@@ -28,6 +28,7 @@
 		CCB0D3601BE153A800EBBA15 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB0D35F1BE153A800EBBA15 /* SystemConfiguration.framework */; };
 		CCB0D3621BE153CE00EBBA15 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB0D3611BE153CE00EBBA15 /* libz.tbd */; };
 		CCB0D3641BE153EA00EBBA15 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB0D3631BE153EA00EBBA15 /* libsqlite3.tbd */; };
+		CCB0D3661BE1647F00EBBA15 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB0D3651BE1647F00EBBA15 /* DataBaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		CCB0D35F1BE153A800EBBA15 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CCB0D3611BE153CE00EBBA15 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CCB0D3631BE153EA00EBBA15 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CCB0D3651BE1647F00EBBA15 /* DataBaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				CCB0D3281BE1511D00EBBA15 /* LaunchScreen.storyboard */,
 				CCB0D32B1BE1511D00EBBA15 /* Info.plist */,
 				CCB0D3231BE1511D00EBBA15 /* Studr.xcdatamodeld */,
+				CCB0D3651BE1647F00EBBA15 /* DataBaseHelper.swift */,
 			);
 			path = Studr;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB0D3661BE1647F00EBBA15 /* DataBaseHelper.swift in Sources */,
 				CCB0D3251BE1511D00EBBA15 /* Studr.xcdatamodeld in Sources */,
 				CCB0D31F1BE1511D00EBBA15 /* ViewController.swift in Sources */,
 				CCB0D31D1BE1511D00EBBA15 /* AppDelegate.swift in Sources */,
