@@ -1,0 +1,16 @@
+PODS:
+  - Bolts/Tasks (1.4.0)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - XLForm (3.0.2)
+
+DEPENDENCIES:
+  - Parse
+  - XLForm (~> 3.0)
+
+SPEC CHECKSUMS:
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  XLForm: 7817ce29f3f259186e837bb7309ac7e5b7e9b883
+
+COCOAPODS: 0.38.2
